@@ -8,5 +8,6 @@ const quotes = [
 ];
 
 export function getRandomQuote() {
- return {/*write code to here*/}
+    let randomindex = Math.floor(Math.random() * quotes.length);
+ return quotes[randomindex]
 }
